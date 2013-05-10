@@ -1,0 +1,10 @@
+en:
+  label_history_tab_all: 全部
+  label_history_tab_activity: 活動
+  label_history_tab_comments: 回應
+  label_history_tab_private: 私人
+  label_history_time_spent: 耗用工時
+  label_history_time_hours_on: hours on
+  label_history_time_logged_by: 是由 %{author} 於 %{age} 前記錄
+  label_history_tab_time: 工時記錄
+  label_tabtime_questions: 問題
