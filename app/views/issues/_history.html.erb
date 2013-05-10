@@ -33,9 +33,9 @@ for journal in journals
 
 	c << "<div id='change-#{journal.id}' class='#{journal.css_classes}'>"
 	c << "<h4>"
-	c << link_to("##{journal.indice}", {:anchor => "note-#{journal.indice}"}, :class => "journal-link" )
+	c << link_to("##{journal.indice}", {:anchor => "change-#{journal.indice}"}, :class => "journal-link" )
 	c << avatar(journal.user, :size => "24")
-	c << content_tag('a', '', :name => "note-#{journal.indice}")
+	c << content_tag('a', '', :name => "change-#{journal.indice}")
 	c << authoring(journal.created_on, journal.user, :label => :label_updated_time_by)
 	c << "</h4>"
 
