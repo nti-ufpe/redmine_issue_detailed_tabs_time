@@ -114,12 +114,12 @@ end %>
 </div>
 <% end %>
 
-<% if @journals.present? %>
+
 <div id="history">
 <h3><%=l(:label_history)%></h3>
 <%= render :partial => 'history', :locals => { :issue => @issue, :journals => @journals } %>
 </div>
-<% end %>
+
 
 
 <div style="clear: both;"></div>
